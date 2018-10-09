@@ -29,5 +29,8 @@ jobs:
         - ~/.gradle
         key: v1-dependencies-{{ checksum "build.gradle" }}
 
-    - run: gradle test
+    - run: ./gradlew test
+    - run: ./gradlew clean build
+    - store_artifacts:
+        path: build/libs/event-boardz-api-*.jar
 
