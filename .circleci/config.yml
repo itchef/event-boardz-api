@@ -32,5 +32,5 @@ jobs:
     - run: ./gradlew test
     - run: ./gradlew clean build
     - store_artifacts:
-        path: build/libs/event-boardz-api-*.jar
+        path: build/libs/event-boardz-api-1.0-SNAPSHOT.jar
 
