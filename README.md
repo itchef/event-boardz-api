@@ -1,4 +1,6 @@
 # Event Boardz API
+[![CircleCI](https://circleci.com/gh/itchef/event-boardz-api.svg?style=svg)](https://circleci.com/gh/itchef/event-boardz-api)
+
 Event Boardz is an open source event management application.
 
 ### Prerequisites
